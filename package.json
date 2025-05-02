@@ -1,0 +1,25 @@
+{
+  "name": "03-construction-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass scss:css --no-sourse-map --style=expanded",
+    "watch:css": "sass --watch scss:css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevhen-lymar/costruction-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yevhen-lymar/costruction-site/issues"
+  },
+  "homepage": "https://github.com/yevhen-lymar/costruction-site#readme",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}
